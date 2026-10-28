@@ -203,3 +203,4 @@ h3 { margin: 0; font-family: var(--display); font-weight: 700; font-size: clamp(
 .play-exhibit { display: inline-flex; align-items: center; gap: 10px; flex-wrap: nowrap; max-width: 100%; align-self: flex-start; font-size: 15px; color: var(--bg); border: 1px solid #3A3140; border-radius: 999px; padding: 8px 18px 8px 8px; margin: 0 0 -12px; }
 .play-exhibit span { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; background: var(--yellow); color: var(--ink); border-radius: 999px; padding: 5px 10px; }
 @media (max-width: 420px) { .play-exhibit { font-size: 13.5px; padding: 6px 14px 6px 6px; } .play-exhibit span { font-size: 10px; padding: 4px 8px; } }
+.lookbook.pages.book figure.wide img { aspect-ratio: 3 / 2; object-fit: cover; }
